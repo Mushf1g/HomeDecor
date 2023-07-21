@@ -1,0 +1,27 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 15px;
+    gap: 60px;
+}
+.contactContent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px , 1fr));
+    column-gap: 130px;
+    row-gap: 50px;
+}
+.contactImg img{
+    border-radius: 5px 5px 300px 5px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1000px) {
+    .contactContent{
+        column-gap: 90px;
+    }
+}
+@media screen and (max-width:800px) {
+    .contactContent{
+        column-gap: 60px;
+    }
+}

@@ -1,0 +1,8 @@
+.collectionBottom{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 446px));
+    gap: 20px;
+    padding: 0 15px;
+    margin-bottom: 120px;
+    place-content: center;
+}

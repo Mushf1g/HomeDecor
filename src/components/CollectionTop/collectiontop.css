@@ -1,0 +1,9 @@
+.collectionTop{
+    margin-top: 50px;
+    margin-bottom: 44px;
+    padding: 0 15px;
+}
+.collectionTop p{
+    max-width: 563px;
+    margin-top: 45px;
+}

@@ -1,0 +1,331 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "collection": 1,
+        "name": "Bedroom 1",
+        "description": "Cozy bedroom with a queen-sized bed.",
+        "image": "https://blog.peppersq.com/content/images/2022/02/Easeful-Bliss-5.jpg",
+        "price": 150 
+      },
+      {
+        "id": 2,
+        "collection": 1,
+        "name": "Bedroom 2",
+        "description": "Spacious bedroom with a king-sized bed and a balcony.",
+        "image": "https://media.istockphoto.com/id/1152078083/photo/modern-bedroom-with-large-open-door-to-garden-3d-render.jpg?s=612x612&w=0&k=20&c=t0rmM1unx1zUhcMY5rCVzQMuUVv9RwyhzuEvkkBVS80=",
+        "price": 200
+      },
+      {
+        "id": 3,
+        "collection": 1,
+        "name": "Bedroom 3",
+        "description": "Small bedroom with a single bed, suitable for kids.",
+        "image": "https://www.home-designing.com/wp-content/uploads/2017/07/wooden-with-staircase-twin-beds-for-girls.jpg",
+        "price": 100
+      },
+      {
+        "id": 4,
+        "collection": 2,
+        "name": "Living Room 1",
+        "description": "Modern living room with a comfortable sofa and a TV.",
+        "image": "https://img.freepik.com/premium-photo/modern-living-room-with-comfortable-sofa-coffee-table-large-screen-tv-generative-ai_410516-63865.jpg",
+        "price": 300
+      },
+      {
+        "id": 5,
+        "collection": 2,
+        "name": "Living Room 2",
+        "description": "Spacious living room with a sectional sofa and a fireplace.",
+        "image": "https://www.decorilla.com/online-decorating/wp-content/uploads/2022/12/Family-room-sectional-ideas-Shasta-P.jpg",
+        "price": 400
+      },
+      {
+        "id": 6,
+        "collection": 2,
+        "name": "Living Room 3",
+        "description": "Cozy living room with a bookshelf and a recliner.",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/frey-living-room-1600097491.jpg",
+        "price": 250
+      },
+      {
+        "id": 7,
+        "collection": 3,
+        "name": "Kitchen 1",
+        "description": "Modern kitchen with stainless steel appliances.",
+        "image": "https://content.warnersstellian.com/wp-content/uploads/2018/10/frigidaire-stainless-steel-appliances-e1538679199650.jpg",
+        "price": 350
+      },
+      {
+        "id": 8,
+        "collection": 3,
+        "name": "Kitchen 2",
+        "description": "Spacious kitchen with a central island and granite countertops.",
+        "image": "https://i.pinimg.com/originals/0d/0d/b6/0d0db69aac0fec280304065fce7f62df.jpg",
+        "price": 450
+      },
+      {
+        "id": 9,
+        "collection": 3,
+        "name": "Kitchen 3",
+        "description": "Cozy kitchen with a breakfast nook and farmhouse-style decor.",
+        "image": "https://cdn.decoist.com/wp-content/uploads/2021/05/Rustic-Styled-Breakfast-Nook-76634.jpg",
+        "price": 300
+      },
+      {
+        "id": 10,
+        "collection": 4,
+        "name": "Library 1",
+        "description": "Home library with floor-to-ceiling bookshelves and a reading corner.",
+        "image": "https://media.angi.com/s3fs-public/home-library-ideas-gray-floor-to-ceiling-bookshelves-min.jpeg",
+        "price": 200
+      },
+      {
+        "id": 11,
+        "collection": 4,
+        "name": "Library 2",
+        "description": "Small library with a writing desk and a collection of classic novels.",
+        "image": "https://www.thespruce.com/thmb/tiIX2KDxvqO7VoyVPbjSZ76-wTo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/13-Minwawa-18d4d0bf0e5748d6aaf67117f3da32bf.jpg",
+        "price": 150
+      },
+      {
+        "id": 12,
+        "collection": 4,
+        "name": "Library 3",
+        "description": "Cozy library with a fireplace and comfortable armchairs.",
+        "image": "https://i.ytimg.com/vi/ZMwr3blFkEU/maxresdefault.jpg",
+        "price": 250
+      },
+      {
+        "id": 13,
+        "collection": 5,
+        "name": "Office 1",
+        "description": "Home office with a spacious desk and ergonomic chair.",
+        "image": "https://media.4rgos.it/i/Argos/sb-2922-m0014-m007-m050-asym-m008-m022-home-office-ideas-4039895?maxW=1200&qlt=75&fmt.jpeg.interlaced=true",
+        "price": 400
+      },
+      {
+        "id": 14,
+        "collection": 5,
+        "name": "Office 2",
+        "description": "Modern office with a minimalist design and natural lighting.",
+        "image": "https://cdn.autonomous.ai/static/upload/images/common/upload/20210327/Minimalist-Office-Design-Style-For-Productive-Workspace_41102960551.jpg",
+        "price": 500
+      },
+      {
+        "id": 15,
+        "collection": 5,
+        "name": "Office 3",
+        "description": "Small office with built-in bookshelves and a computer workstation.",
+        "image": "https://www.maisondepax.com/wp-content/uploads/2022/08/built-in-bookcase-with-desk-home-office-5.jpg",
+        "price": 350
+      },
+      {
+        "id": 16,
+        "collection": 6,
+        "name": "Laundry Room 1",
+        "description": "Spacious laundry room with a washer, dryer, and folding area.",
+        "image": "https://www.thespruce.com/thmb/xq_f_TFXyh-A1P62m3-RzBEa8Uo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/CathieHongInteriors_062520_36-e989b4eff895405fb641ae980dbdb7b4.jpg",
+        "price": 250
+      },
+      {
+        "id": 17,
+        "collection": 6,
+        "name": "Laundry Room 2",
+        "description": "Compact laundry room with built-in storage and hanging racks.",
+        "image": "https://www.thespruce.com/thmb/hmbCtBE1JA4woYSiB6WoZXpgVYw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/inspiring-laundry-room-design-ideas-4098507-hero-253149ae1c9542058c5d39b19896ae88.jpg",
+        "price": 150
+      },
+      {
+        "id": 18,
+        "collection": 6,
+        "name": "Laundry Room 3",
+        "description": "Laundry room with a farmhouse sink and custom cabinetry.",
+        "image": "https://www.makingmanzanita.com/wp-content/uploads/2020/01/Modern-farmhouse-luandry-room-with-farmhouse-utility-sink-and-folding-table.jpg",
+        "price": 200
+      },
+      {
+        "id": 19,
+        "collection": 7,
+        "name": "Guest Room 1",
+        "description": "Comfortable guest room with a queen-sized bed and an en-suite bathroom.",
+        "image": "https://www.thespruce.com/thmb/UeAbH0FBtM6ZRSDZ-NsnjBw3Ebg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SPR-ensuite-bathroom-overview-5268258-d912f8714bc843188837b8f5c812fa08.jpg",
+        "price": 300
+      },
+      {
+        "id": 20,
+        "collection": 7,
+        "name": "Guest Room 2",
+        "description": "Cozy guest room with twin beds and a desk.",
+        "image": "https://luxcity.com/storage/photos/7/blogs/twin-bed-guest-room-ideas-1.jpg",
+        "price": 250
+      },
+      {
+        "id": 21,
+        "collection": 7,
+        "name": "Guest Room 3",
+        "description": "Spacious guest room with a sitting area and a balcony.",
+        "image": "https://cdn.decoist.com/wp-content/uploads/2014/09/Miami-living-room-with-an-abundance-of-wooden-tones.jpg",
+        "price": 400
+      },
+      {
+        "id": 22,
+        "collection": 8,
+        "name": "Family Room 1",
+        "description": "Large family room with a home theater system and comfortable seating.",
+        "image": "https://st.hzcdn.com/simgs/1d6102dd0fa5c309_4-7112/home-design.jpg",
+        "price": 450
+      },
+      {
+        "id": 23,
+        "collection": 8,
+        "name": "Family Room 2",
+        "description": "Open-concept family room with a game area and a fireplace.",
+        "image": "https://www.bhg.com/thmb/7Vd56l-ezZ5XnfhSP1_Jb_R9sy4=/1500x0/filters:no_upscale():strip_icc()/chunky-brick-fireplace-windows-living-room-IsraelTradHome01-62b479bd940d455fbca359419eb23559.jpg",
+        "price": 350
+      },
+      {
+        "id": 24,
+        "collection": 8,
+        "name": "Family Room 3",
+        "description": "Cozy family room with a sectional sofa and a built-in entertainment center.",
+        "image": "https://www.thespruce.com/thmb/zEYZBLxhCH_rVAteO8UJk-fUVL0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/KNe-7HMC-cb85e1988e9541dcb209beace4c9d45e.jpeg",
+        "price": 400
+      },
+      {
+        "id": 25,
+        "collection": 9,
+        "name": "Bathroom 1",
+        "description": "Modern bathroom with a walk-in shower and a freestanding bathtub.",
+        "image": "https://images.squarespace-cdn.com/content/v1/51cce286e4b00280d0e6e35e/1606560618319-QJEYALDXB44THIBD36SY/Picture1.jpg",
+        "price": 300
+      },
+      {
+        "id": 26,
+        "collection": 9,
+        "name": "Bathroom 2",
+        "description": "Luxurious bathroom with marble finishes and a double vanity.",
+        "image": "https://i.pinimg.com/1200x/1e/e0/6a/1ee06ac3bda1a94d973525166b77ef35.jpg",
+        "price": 500
+      },
+      {
+        "id": 27,
+        "collection": 9,
+        "name": "Bathroom 3",
+        "description": "Small bathroom with a vanity and a shower.",
+        "image": "https://www.thespruce.com/thmb/9XLkZ8QClz22zB-l0nPF7Q9vIqY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/small-bathroom-photos-and-ideas-452178-hero-05b3f453f9c7460ea22e3bd696be3525.jpg",
+        "price": 200
+      }
+    ],
+    "collections":[
+      {
+        "id": 1,
+        "name": "BEDROOM"
+      },
+      {
+        "id": 1,
+        "name": "BEDROOM"
+      },
+      {
+        "id": 1,
+        "name": "BEDROOM"
+      },
+      {
+        "id": 2,
+        "name": "LIVING ROOM"
+      },
+      {
+        "id": 2,
+        "name": "LIVING ROOM"
+      },
+      {
+        "id": 2,
+        "name": "LIVING ROOM"
+      },
+      {
+        "id": 3,
+        "name": "KITCHEN"
+      },
+      {
+        "id": 3,
+        "name": "KITCHEN"
+      },
+      {
+        "id": 3,
+        "name": "KITCHEN"
+      },
+      {
+        "id": 4,
+        "name": "LIBRARY"
+      },
+      {
+        "id": 4,
+        "name": "LIBRARY"
+      },
+      {
+        "id": 4,
+        "name": "LIBRARY"
+      },
+      {
+        "id": 5,
+        "name": "OFFICE"
+      },
+      {
+        "id": 5,
+        "name": "OFFICE"
+      },
+      {
+        "id": 5,
+        "name": "OFFICE"
+      },
+      {
+        "id": 6,
+        "name": "LAUNDRY ROOM"
+      },
+      {
+        "id": 6,
+        "name": "LAUNDRY ROOM"
+      },
+      {
+        "id": 6,
+        "name": "LAUNDRY ROOM"
+      },
+      {
+        "id": 7,
+        "name": "GUEST ROOM"
+      },
+      {
+        "id": 7,
+        "name": "GUEST ROOM"
+      },
+      {
+        "id": 7,
+        "name": "GUEST ROOM"
+      },
+      {
+        "id": 8,
+        "name": "FAMILY ROOM"
+      },
+      {
+        "id": 8,
+        "name": "FAMILY ROOM"
+      },
+      {
+        "id": 8,
+        "name": "FAMILY ROOM"
+      },
+      {
+        "id": 9,
+        "name": "BATHROOM"
+      },
+      {
+        "id": 9,
+        "name": "BATHROOM"
+      },
+      {
+        "id": 9,
+        "name": "BATHROOM"
+      }
+    ]
+  }
+  

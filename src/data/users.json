@@ -1,0 +1,19 @@
+
+    {
+        "users":[
+            {
+                "id": 1,
+                "name": "Mushfig",
+                "email": "mushfig@gmail.com",
+                "password": "1234"
+            },
+
+            {
+                "id": 2,
+                "name": "Əli",
+                "email": "eli@gmail.com",
+                "password": "5678"
+            }
+        ]
+
+    }

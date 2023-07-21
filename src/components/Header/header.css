@@ -1,0 +1,140 @@
+.header{
+    height: calc(100vh - 144px);
+    /* background-color: aliceblue; */
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+/* .headerStart{
+    position: relative;
+} */
+.headerStart h1{
+    max-width: 830px;
+    z-index: 1;
+}
+.headerStart p{
+    max-width: 447px;
+    margin-top: 50px;
+
+    font-size: 16px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.headerStart button {
+    border-radius: 10px;
+    background: var(--primary, #B8926A);
+
+    color: var(--background, #EAE6DF);
+    font-size: 16px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 50px;
+    padding: 17px 99px;
+}
+.headerStart button:hover{
+    background: #A5825D;
+    transition: 0.3s;
+}
+
+.headerPng{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.headerPng  div{
+    height: 100%;
+    width: 61vw;
+}
+.headerPng div img{
+    object-fit: cover;
+    border-radius: 10px;
+}
+.blur{
+    border-radius: 10px 0px 0px 10px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(7.5px);
+    width: 33%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+@media screen and (max-width:1200px) {
+    .headerStart h1{
+        font-size: 64px;
+    }
+    .headerStart p{
+        max-width: 410px;
+    }
+}
+@media screen and (max-width:1075px) {
+    .headerStart h1{
+        font-size: 56px;
+    }
+    .headerStart p{
+        max-width: 380px;
+    }
+    .headerPng{
+        height: auto;
+    }
+}
+@media screen and (max-width:950px) {
+    .headerStart h1{
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .headerStart h1{
+        font-size: 48px;
+        line-height: 60px;
+        padding: 0 15px;
+    }
+    .header{
+        height: auto;
+        width: 100%;
+        padding: 15px !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .headerStart p{
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 15px;
+    }
+    .headerPng{
+        position: static;
+    }
+    .headerPng div{
+        padding: 0 15px;
+        width: 100vw;
+        height: auto;
+        margin-top: 50px;
+    }
+    .blur{
+        display: none;
+    }
+    .headerStartBtn{
+        padding: 0 15px;
+    }
+    .header button{
+        padding: 15px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .headerStart h1{
+        font-size: 32px;
+        line-height: 36px;
+    }
+}

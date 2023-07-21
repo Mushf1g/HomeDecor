@@ -1,0 +1,19 @@
+.logInRight{
+    flex: 3;
+    height: 100vh;
+}
+.logInRight img{
+    object-fit: cover;
+}
+
+@media screen and (max-width:768px) {
+    .logInRight{
+        flex: 1;
+        height: auto;
+    }
+    .logInRight img{
+        object-fit: cover;
+        height: 267px !important;
+        margin-bottom: 100px;
+    }
+}

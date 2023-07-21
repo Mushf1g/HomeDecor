@@ -1,0 +1,34 @@
+.collectionImg{
+    position: relative;
+}
+.collectionImg div{
+    height: 267px;
+}
+.collectionImg img{
+    object-fit: cover;
+    border-radius: 10px;
+    height: 100%;
+}
+.collectionImg p{
+    color: var(--background, #EAE6DF);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.collectionImg span{
+    border-radius: 0px 0px 10px 10px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(7.5px);
+    height: 73px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

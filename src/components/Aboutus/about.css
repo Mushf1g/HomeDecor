@@ -1,0 +1,32 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 15px 70px;
+}
+.aboutContent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    column-gap: 66px;
+    row-gap: 30px;
+    align-items: center;
+    align-self: center;
+}
+/* .aboutBtn{
+    color: var(--primary, #B8926A);
+    font-size: 16px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 17px 110px;
+    border-radius: 10px;
+    border: 1px solid var(--primary, #B8926A);
+    background-color: transparent;
+    margin-top: 44px;
+}
+.aboutBtn:hover{
+    background-color: #B8926A;
+    color: #EAE6DF;
+    transition: 0.5s;
+} */

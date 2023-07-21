@@ -1,0 +1,89 @@
+.registerpg{
+    display: flex;
+    justify-content: space-between;
+}
+.registerpgLeft{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    flex: 2;
+}
+.registerpgForm{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 120px;
+}
+.registerpgForm h3{
+    margin-bottom: 35px;
+}
+
+.registerpgForm input{
+    padding: 17px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid var(--dusty-rose, #D4C8BE);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.registerpgForm input::placeholder{
+    color: var(--grey, #B0B0B0);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.registerpgForm div{
+    display: flex;
+    gap: 20px;
+    margin-top: 38px;
+}
+.registerpgForm div p{
+    color: var(--black, #2D2D2B);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+.registerpgForm div a{
+    color: var(--primary, #B8926A);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+
+@media screen and (max-width:768px) {
+    .registerpg{
+        display: flex;
+        flex-direction: column;
+    }
+    .registerpgLeft{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 15px;
+        flex: 1;
+        margin-top: 40px;
+    }
+    .registerpgForm{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        margin-top: 40px;
+    }
+    .registerpgForm div{
+        display: flex;
+        gap: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}

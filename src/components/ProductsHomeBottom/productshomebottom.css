@@ -1,0 +1,11 @@
+.productsHomeBottom{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px , 330px));
+    column-gap: 20px;
+    row-gap: 45px;
+    place-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 65px;
+    padding: 0 15px;
+}

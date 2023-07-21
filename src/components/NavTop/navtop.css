@@ -1,0 +1,229 @@
+.navtop{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 15px;
+    align-items: center;
+    align-self: center;
+}
+.navtopStart{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    align-self: center;
+}
+.navtopEnd{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    gap: 30px;
+}
+.navtopTitle{
+    color: var(--black);
+    text-align: center;
+    font-size: 36px;
+    font-family: 'GFS Didot', serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.navtop button{
+    color: var(--black);
+    font-size: 20px;
+    background-color: transparent;
+}
+.navtop button:hover{
+    transform: scale(1.2);
+    color: var(--primary);
+    transition: 0.3s;
+}
+.navtopStart span{
+    padding: 3px 5px;
+    border-radius: 5px;
+    border: 1px solid var(--dusty-rose, #D4C8BE);
+
+    color: var(--black, #2D2D2B);
+    font-size: 16px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    cursor: pointer;
+}
+.personBtn{
+    font-size: 24px !important;
+    padding: 2px 0 0 ;
+}
+
+
+/* search */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    pointer-events: auto;
+}
+  
+.search-open .overlay {
+    display: block;
+}
+  
+.search-open .navtopStart,
+.search-open .navtopTitle,
+.search-open .navtopEnd {
+    opacity: 0.5;
+    pointer-events: none;
+}
+  
+.search-open .searchBox {
+    z-index: 1000;
+}
+.searchInput{
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #EAE6DF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+  .searchInput::placeholder{
+    color: var(--black, #2D2D2B);
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.5;
+}
+.closeBtn{
+    position: absolute;
+    top: 30px !important;
+    right: 30px;
+    z-index: 1001;
+}
+.closeBtn:hover{
+    transform: scale(1) !important;
+}
+
+  
+  /* Navbar */
+.overlayNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    pointer-events: auto;
+}
+.nav-open .overlayNav {
+    display: block;
+}
+.nav-open .navBox {
+    z-index: 1000;
+    padding: 20px 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #EAE6DF;
+}
+.cartBtnMob,
+.personBtnMob{
+    display: block;
+}
+.closeNavBtn{
+    position: absolute;
+    top: 22px;
+    right: 15px;
+}
+.navBoxTop{
+    display: flex;
+    gap: 25px;
+}
+.navbarMob{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 35px;
+}
+.navbarMob a{
+    display: inline-block;
+    color: var(--black, #2D2D2B);
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    width: fit-content;
+}
+.navBoxLangs{
+    display: flex;
+    width: min-content;
+    border-radius: 5px;
+    border: 1px solid var(--dusty-rose, #D4C8BE);
+    margin: 70px auto 20px;
+}
+.navBoxLangs span{
+    padding: 12px 38px;
+    color: var(--black, #2D2D2B);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+}
+.navBoxLangs span:nth-child(1){
+    background: #D4C8BE;
+}
+
+
+
+
+
+.langs{
+    position: relative;
+}
+.langEn,
+.langRu,
+.langRu{
+    display: none;
+}
+.langAz:hover + .langEn{
+    display: block;
+    position: absolute;
+    top: 27px;
+}
+.langAz:hover + .langRu{
+    display: block;
+    position: absolute;
+    top: 40px;
+}
+.searchBtnMob,
+.hamburgerBtnMob{
+    display: none;
+}
+
+
+@media screen and (max-width:768px) {
+    .navtopStart{
+        display: none;
+    }
+    .searchBtnMob,
+    .hamburgerBtnMob{
+        display: block;
+    }
+    .cartBtn,
+    .personBtn{
+        display: none;
+    }
+}

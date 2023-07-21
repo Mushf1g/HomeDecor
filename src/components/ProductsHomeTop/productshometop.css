@@ -1,0 +1,24 @@
+.productsHomeTop{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin-top: 65px;
+    padding: 0 15px;
+}
+.productsHomeTop a{
+    color: var(--primary, #B8926A);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+
+@media screen and (max-width:500px) {
+    .productsHomeTop a{
+        display: none;
+    }
+}

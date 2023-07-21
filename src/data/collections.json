@@ -1,0 +1,48 @@
+[
+    {
+      "id": 11,
+      "name": "BEDROOM",
+      "image": "https://s3-alpha-sig.figma.com/img/d9b6/8e11/548ad23561f72bb7ac58ee9002bb63a0?Expires=1690761600&Signature=XHjUnexPrkHAs-EVFSXbbAYCdIIZ~GdsbYZmYaYDeO2yD~CeWPN-1Td0mqElwR-QJF1IYxLVvM489nA2ZaZgyOBMODAv6wTI9V5PZs2pCfsEaH31vMXR9exteLoO6RaoJcHlUUm5O6sBEiN50JE6M0VK4dBbN-7YovttNnHxe1l5fFfhKyymjZ2LN6FcuO0maG6WhUsy2K134xE1iGaTLhtxeUwe09I5l2zwcODBWbuXJZUTGlO4fHHcuaCAYK07oj4QHepjAfhCEVgi78qXTWx0~vZPSusaQCCiL-QxRnA1~bUGq3O7mLi4tKgbgxLS~0MoA82Vc5FdgCQN-qpBWQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    },
+    {
+      "id": 12,
+      "name": "LIVING ROOM",
+      "image": "https://s3-alpha-sig.figma.com/img/3ba3/1bc7/0c97e2e915a1be341e2c41b5bb3e1d55?Expires=1690761600&Signature=HENcl2WVyQrPQE86dTgMnCWmrsN0dJLK1coimQEGkNPqJL6r5tGd6aiRsISVXL755CkBFBDzGfTMCgwmMPYjhaXI9WGOI1QD8kMQmWnCegiIZXINTnqm84ME6Y8lh3reP6FPHi64PhzU-sq44Ry33k8nOoolzoGoEIsccTVCJ6V5ZzLkzbC5qaJpaP5KHYdTtnB7mk33IdQrywee6cqPJbCO3fWIcuW9YfgMKE0Sp2wjMZTwMgaDpcNMBVYHwLg-H5FTrVEFjsV0BnXxN~YBQojUn16F19JYpbbxFKYHwin6ScIlS1vhOglrTZw0-vW2ueyz-cF6fK-BOV~CbJ6KIA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    },
+    {
+      "id": 13,
+      "name": "KITCHEN",
+      "image": "https://s3-alpha-sig.figma.com/img/0e0e/dc15/2dea892ac4e3f99eecb4e8bd39effc60?Expires=1690761600&Signature=JXSPq6841GiIYEfYIEAKQFRrj2-07lATSJ1gt2iNK33kLm0UUxmpExBR8loGeyFgnfzxOoxi5L-9ckjSMs9mbSNGHsMazbkDUB3dSvkBDLem3mTCJpldImVGfH7MYuUU7Rm7HYHx2GKNHqEwQgyeRZWtXqGxk8oehyUgJOPEPP6ZXI5iHU7-N8cfn4ZAJmrzw~wM3Z0Ubh2bHlGaPV5p3hi1QwF34RP4dAixAXlLX7rRfsQYd4CkMO9Ea6xmrkPSjn1hNO9p9dFnSJJoMEzkPiQTYrUZJENNp2pb6SyhobnK-~MnetEd3ZCCZJKicsdsDesLhW98ioLhlHwr93tYeQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    },
+    {
+      "id": 14,
+      "name": "LIBRARY",
+      "image": "https://s3-alpha-sig.figma.com/img/67aa/ba98/663a4ddd65289276a0bf7f802fcd6e9a?Expires=1690761600&Signature=K7bqjU4AANzPjBKnLILkGwVs-3Xl-R8yx~8-jGUYfNnHC8UsHw1kRAQxzv6lAHUdtUblUAlPvvxeCKqXLKqWzTIGnlbpAL8LVsW094izSAurbpz987uSPWgqqyBUluWLERq0pXEqGUTC3CgACy38t79JRo0mePIR8x75Ygr4wqa7oRmIw7KpdEtOvxj8~EsraM9jzrPKxrMVwFX70TTVPSz72RajsHIvlV5r3AiLYtEjn3UHDZqM-yWJsZyDfRheJZwN6dAhszNS1TE9gk8vQs5mmzxo2yapFruwRJM1ss-cBLb~XJMFnxJnU0hbRi4ezPwTXWAYYRXmL9BioavDKg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    },
+    {
+      "id": 15,
+      "name": "OFFICE",
+      "image": "https://s3-alpha-sig.figma.com/img/ae99/2450/c20c2eedb6f1aa6418b80e76ab3d08cc?Expires=1690761600&Signature=em72vKHCn2uGNsYJlwH8p7lCeA5PdtTnJDKcnBJK380pls0tpcO0sGrRp9Lpv0pjKZrtBJI7hdfFgegiemkYuRCtHoCbmPtF9TttUkJDtc4j~uZkJj~PubGiuLx-qEZwSm-9yse~hEN7HymGaUMwJYfG44k7r65u01BZ3ZrAwBFW8kwYU3Iv-G56kH7GpMCy1mN~4WuQhcQ2FDai2lIEeLendPLkAHWuiW5tRnnVUDEenErI8Pm0wKV7jU~STII2UuyEuJCoVw5LJ0gJ7Yyy~iUHpjiGdy0VGWXzxp~Ze4Ry1fV8JD4AzVTlOQf6A2iJhmd0RGCWyTPKnWiGhXSVfw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    },
+    {
+      "id": 16,
+      "name": "LAUNDRY ROOM",
+      "image": "https://s3-alpha-sig.figma.com/img/ded8/9ed8/15cdf81ef8d45e035ef1af8dd15d77d7?Expires=1690761600&Signature=bwoP~vxbdzbswWAJBC9W8thqoAhUgAuM14hXDMf1Zx6WmzE~Qohxa027XZVCUax625EydZEON2qdAnkynbzz9UK6~tdL4sNTE9limlgIRBd2p1G6u5vZ3DQjr13nvbClO-qFaoQvumVV3rN6gy-mhm5k18-YI5eVMqfhFeIAsG0SAHfUf3wqWrjfK-ceT9NbQoQ07KHswkPp9wpxfWyCR~IaUULqDMjpe6XHBvBYPxIg9QOj1wxvRbShXSVxaWy~Gne9psxs5UJsfEa28gkP-dYf7YkKTTgWfJv7Lv3iHPi9glc1kWTjVC~ZWrwhRYeKY6k863ThHrHlv-BjaOoT0g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    },
+    {
+      "id": 17,
+      "name": "GUEST ROOM",
+      "image": "https://s3-alpha-sig.figma.com/img/2fec/f199/3d32458cd54ecbd8d8e6747ae1db96c4?Expires=1690761600&Signature=pSlStukWScehpC-~9WOWJ8pZfZ9cCtJ16yTy7wjW3hermZStxl7IFbd4wcGm9JjgF9DNJWfgQI9yDKAuJcX8P3iPbMY9mgXIobcoll6-aVef9lHCHPLp3LXoOvRZ2Z6PUqfPncUog5WxAKlRvpHryy03jDx6YiBIxo2CpHIs4rct2KJu6eGg0v19kK68zvMy9tmvHlYwSdht6qRKak4q~~16Hqwoqr9KkI1vbT5I~1W2oNv313QaghZKJBfxt47EotSP9hkAYb5cr2YjqK84Cm~pv9c9d18gcioiB1U6KuW8n7D2gLLmWVZaLlM8PyBmjMoXk2smAq5doT4Fvpm4oA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    },
+    {
+      "id": 18,
+      "name": "FAMILY ROOM",
+      "image": "https://s3-alpha-sig.figma.com/img/2625/da33/3ac66c54d2bf5a3481d2e4e0c2bd9158?Expires=1690761600&Signature=Yl-oKOEY1tVydzq36qdHdKnJVwHrmAx40-f2G6~gdOUOP8Lud59aIoYk7~JbbR2MVrrOynJ8GP87UDDXYwRmPZGyhA7Y4C4g~LhEnZDxNRZo48nmUM0JXEdBlfHVjPI2czWunLLlT5ffXShRCPpy31I62ofwr5cynS9mmIFc~hzHlAFuBYSca0NR-mMsPSTq~jlZbuyB2jV2oj0SUhBgUVanShfv8tvRExil6xlbmhYDNTCPlI1e9tt6oY-vsUrnDRpKIrCj~A6yE3M9mXhx~9QRFig4l5so-U0N2x8oEdqH-cnzHjR9usWu1jbywD9~uZe9k7t5Ct38Aep5DG3zag__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    },
+    {
+      "id": 19,
+      "name": "BATHROOM",
+      "image": "https://s3-alpha-sig.figma.com/img/629a/424a/ccdfc649c7aeee6a63e580d48c745949?Expires=1690761600&Signature=TWlcFSd6aXhNce4r2caTObQLuQfiOGyTmI9RckG4jm1ZuHuflREBYaSc1uRqoWBW3S0OylG~VCTcyTAumIWwxzc2b4KwO1ViMT8PGtoGEMHGfucOz5Vohz3UMdMJlTOg9zom3RE1nezhHg3CsMfHoBa6zzNddpU2b11TGxQtbSXD3qah8Oj7hmMAMCl-mu52yHYjWgmaEJgaGCGKNggD7RAdGIhu~VeqSbenNTfHv1Hodb3ih5WYguporvOL4XVjqN4eQz5rHZxxoKM2Jw0H~UiHN4valdJwW9VKHDWEf21vbPiJxIQMj2by~oNtPwbpq-O5Z7cot~gpu3gdeAMzlQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    }
+  ]
+  

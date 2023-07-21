@@ -1,0 +1,45 @@
+.personalInfopg{
+    width: 100%;
+}
+.personalInfopgForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 496px;
+}
+.personalInfopg input{
+    border-radius: 10px;
+    border: 1px solid var(--dusty-rose, #D4C8BE);
+    color: var(--black, #2D2D2B);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    padding: 17px 20px;
+    background: transparent;
+}
+.saveChanges{
+    color: var(--background, #EAE6DF);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    border-radius: 10px;
+    background: var(--primary, #B8926A);
+    padding: 21px;
+    margin-top: 10px;
+}
+.personalInfopgPass{
+    position: relative;
+}
+.personalInfopgPass input{
+    width: 100%;
+}
+.eyeBtn{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}

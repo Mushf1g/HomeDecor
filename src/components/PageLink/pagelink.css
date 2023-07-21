@@ -1,0 +1,19 @@
+.pagelink{
+    display: flex;
+    gap: 10px;
+    padding: 0 15px;
+}
+.pagelink1{
+    color: var(--black);
+    opacity: 0.5;
+    border-bottom: 2px solid rgba(184, 146, 106, 0);
+}
+.pagelink2{
+    color: var(--black);
+}
+.pagelink1:hover{
+    border-bottom: 2px solid var(--primary);
+}
+.pagelink2:hover{
+    border-bottom: 2px solid var(--primary);
+}

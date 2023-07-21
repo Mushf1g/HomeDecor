@@ -1,0 +1,35 @@
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contactForm input,
+.contactForm textarea,
+.contactForm::placeholder{
+    border-radius: 10px;
+    border: 1px solid var(--dusty-rose, #D4C8BE);
+    padding: 17px 20px;
+    /* color: var(--grey, #B0B0B0); */
+    font-size: 16px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    background-color: transparent;
+}
+.contactForm button{
+    border-radius: 10px;
+    background: var(--primary, #B8926A);
+    color: var(--background, #EAE6DF);
+    text-align: center;
+    font-size: 16px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 21px;
+}
+.contactForm button:hover{
+    background: #A5825D;
+    transition: 0.3s;
+}

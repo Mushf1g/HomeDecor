@@ -1,0 +1,80 @@
+.mostPopular{
+    margin-top: 60px;
+    margin-bottom: 65px;
+    width: 100%;
+    padding: 0 16px 0 0;
+}
+.mostPopularCard{
+    position: relative;
+}
+.mostPopular div img{
+    display: block;
+    object-fit: cover !important;
+    height: 267px !important;
+    border-radius: 10px;
+    text-align: center;
+}
+.slick-track{
+    display: flex !important;
+    gap: 20px;
+}
+.mostPopular h3{
+    padding: 65px 15px 60px;
+}
+.mostPopular p{
+    color: var(--black, #2D2D2B);
+    /* Subtitle */
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 22px;
+}
+.mostPopular span{
+    display: block;
+    color: var(--primary, #B8926A);
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.mostPopularCard button{
+    padding: 7px 11px 1px;
+    font-size: 18px;
+    color: var(--primary);
+    border-radius: 5px;
+    background: #FFF;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+
+.mostPopular .slick-next:before {
+    font-size: 30px !important;
+    color: var(--primary) !important;
+}
+.mostPopular .slick-prev:before {
+    font-size: 30px !important;
+    color: var(--primary) !important;
+}
+
+.mostPopular .slick-prev{
+    top: 420px;
+    left: auto;
+    right: 50px;
+}
+.mostPopular .slick-next{
+    top: 420px;
+    right: 10px;
+}
+
+
+@media screen and (max0width:500px) {
+    .mostPopular h3{
+        padding: 65px 15px 40px;
+    }
+}

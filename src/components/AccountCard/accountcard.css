@@ -1,0 +1,101 @@
+.myAccountPage{
+    display: flex;
+    padding: 0px 15px;
+    margin-top: 49px;
+    margin-bottom: 150px;
+    column-gap: 137px;
+}
+.myAccount{
+    padding: 40px 30px;
+    border-radius: 10px;
+    background: #E0D7CE;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: min-content;
+}
+.myAccount{
+    max-width: 330px;
+}
+.myAccount span{
+    font-size: 24px;
+}
+.myAccount h4{
+    color: var(--black, #2D2D2B);
+    text-align: center;
+    font-family: Didot;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+    margin-bottom: 52px;
+}
+.myAccount1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: var(--black, #2D2D2B);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    margin-bottom: 30px;
+}
+.myAccount2{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: var(--black, #2D2D2B);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    margin-bottom: 30px;
+}
+.myAccount3{
+    border: 0.5px solid #eae6df;
+    margin-bottom: 30px;
+}
+.myAccount4{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: var(--black, #2D2D2B);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+}
+
+@media screen and (max-width:850px) {
+    .myAccountPage{
+        display: flex;
+        padding: 0px 15px;
+        margin-top: 49px;
+        margin-bottom: 100px;
+        column-gap: 80px !important;
+    }
+}
+@media screen and (max-width:700px) {
+    .myAccountPage{
+        column-gap: 20px !important;
+    }
+}
+@media screen and (max-width:590px) {
+    .myAccountPage{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 15px;
+        margin-top: 49px;
+        margin-bottom: 100px;
+        row-gap: 40px;
+    }
+    .myAccount{
+        max-width: auto;
+        width: 100%;
+    }
+}

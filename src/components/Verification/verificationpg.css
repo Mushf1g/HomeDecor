@@ -1,0 +1,94 @@
+.verificationpg{
+    display: flex;
+    justify-content: space-between;
+}
+.verificationpgLeft{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    flex: 2;
+}
+
+.verificationpgFrom{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 120px;
+}
+.verificationpgFrom h3{
+    margin-bottom: 35px;
+}
+
+.verificationpgFrom input{
+    padding: 17px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid var(--dusty-rose, #D4C8BE);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.verificationpgFrom input::placeholder{
+    color: var(--grey, #B0B0B0);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.VerificationpgFromVerify{
+    width: 100%;
+    display: block;
+}
+.logInFormBtn{
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+.verificationpgFrom div{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+.verificationpgFrom div p{
+    color: var(--black, #2D2D2B);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+.verificationpgFrom div a{
+    color: var(--primary, #B8926A);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+
+@media screen and (max-width:768px) {
+    .verificationpg{
+        display: flex;
+        flex-direction: column;
+    }
+    .verificationpgLeft{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 15px;
+        flex: 1;
+        margin-top: 40px;
+    }
+    .verificationpgFrom{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,101 @@
+.productContent{
+    margin-top: 54px;
+    margin-bottom: 140px;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: flex-start;
+}
+.productContentLeft{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+}
+.productContentLeft p{
+    color: var(--primary, #B8926A);
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+.productContentLeft1,
+.productContentLeft2{
+    display: grid;
+    gap: 26px;
+}
+.productContentLeft li{
+    color: var(--black, #2D2D2B);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+.productContentLeft1 ul,
+.productContentLeft2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.productContentRight > div{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px , 330px));
+    place-content: center;
+    column-gap: 20px;
+    row-gap: 45px;
+    margin: 0 auto;
+}
+
+.categoriesBtn,
+.collectionsBtn,
+.sortBtn{
+    display: none;
+    padding: 17px 20px;
+    color: var(--primary, #B8926A);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    border-radius: 10px;
+    border: 1px solid var(--primary, #B8926A);
+    background: transparent;
+    margin-top: 10px;
+}
+.productContentLeft1 li{
+    position: relative;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .productContentLeft{
+        display: none;
+    }
+    .productContent{
+        margin-top: 0px;
+        margin-bottom: 100px;
+        padding: 0px 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: flex-start;
+    }
+    .productContentRight{
+        margin-top: 40px;
+    }
+    .categoriesBtn,
+    .collectionsBtn,
+    .sortBtn{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+    .categoriesBtn .icon,
+    .collectionsBtn .icon{
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
